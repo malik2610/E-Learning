@@ -1,0 +1,60 @@
+#homeHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3% 3%;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    width: 100%;
+    top:0px;
+    position: fixed;
+    margin: 0;
+}
+h2,h3,label,br,h1,span,.box li{
+    user-select: none;
+}
+#homeHeader div:nth-child(3){
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#sl{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+#AdminMenuBar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height:94vh;
+    background-color: grey;
+    position: fixed;
+    top:10.8%;
+}
+#AdminMenuBar div{
+   padding: 3% 6%;
+   color: white;
+   font-weight: 400;
+   background-color: rgba(56, 56, 56, 0.871);
+   text-align: left;
+   border: .2px solid rgba(39, 39, 36, 0.871);
+}
+
+#AdminMenuBar div:hover{
+    transition: .5s;
+   border: none;
+   background-color: lightcoral;
+   border-bottom:1px solid white;
+   box-shadow: 0 0 2px 1px white;
+   
+}
+#nonEditable input{
+    user-select: none;
+  }
+
+  #Thumbnail{
+    margin-left: -100px;
+  }

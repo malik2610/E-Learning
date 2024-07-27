@@ -1,0 +1,60 @@
+.CContainer {
+  width: 80%;
+  margin-left: 20%;
+  position: absolute;
+  margin-top: 30%;
+  padding: 2% 4%;
+
+}
+
+.CContainer ul {
+  display: flex;
+  row-gap: 2%;
+  column-gap: 2%;
+}
+
+.CContainer li {
+  width: 18%;
+  padding: 1% 2%;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+.CContainer p {
+  user-select: none;
+  font-size: 16px;
+}
+
+.CContainer .thumbnail {
+  user-select: none;
+  width: 115%;
+  
+  margin: 0 -7.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 2px .001px grey;
+  border-radius: 12px;
+}
+
+.CContainer .thumbnail img {
+  width: 100%;
+  height: 110px;
+  width: 100%;
+}
+
+.Courses{
+  position: absolute;
+  margin-top: 10%;
+  
+}
+.smt{
+  width: 70%;
+  position: relative;
+  left:-9%;
+}
+.smc{
+  position: relative;
+  margin-top: 5%;
+}

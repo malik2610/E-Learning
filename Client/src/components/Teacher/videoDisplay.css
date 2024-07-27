@@ -1,0 +1,84 @@
+.video {
+    width: 99%;
+    height: 105vh;
+}
+
+.videoContainer {
+    width: 90%;
+    height: 105vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    left: 5%;
+}
+
+.courseBody {
+    background-color: #171a1f;
+    padding-bottom: 10%;
+}
+
+.eplist {
+    width: 90%;
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: 0 0 2px 1px #51829B;
+}
+
+.eplist thead {
+    background-color: #76ABAE;
+}
+
+.eplist td {
+
+    color: #EEEEEE;
+
+}
+
+.eplist td:nth-child(2) {
+    padding: .7% 2%;
+    text-align: left;
+}
+
+.eplist td:nth-child(3) {
+    width: 10%;
+}
+
+.eplistContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.play {
+    padding: 5% 20%;
+    border-radius: 15px;
+    border: none;
+    transition: background-color 0.7s; /* Added transition property */
+}
+
+.eplist tbody tr:hover {
+    transition: background-color 0.7s; /* Added transition property */
+    /* background-color: #51829B; */
+    background-color: rgb(16, 22, 33);
+    /* box-shadow: inset 0 0 2px 1px #2e7091; */
+}
+tbody,tbody tr{
+    border-collapse: collapse;
+}
+
+.eplist tbody tr:hover .play {
+    padding: 5% 20%;
+    border-radius: 15px;
+    border: none;
+    background-color:rgb(115, 79, 79) ;
+    color: white;
+    box-shadow: 0 0 3px 1px rgb(153, 106, 106);
+}
+
+.play:hover{
+    background-color: rgb(51, 164, 98);
+}
